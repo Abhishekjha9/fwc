@@ -76,15 +76,27 @@ html, body{
 }
 
 #second-section{
-   height: 100vh;
+   height: 80vh;
    width: 100%;
-   padding: 6vw 5vw;
+   /* padding: 6vw 5vw; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 #second-section img{
     height: 400px;
     width: 500px;
     border-radius: 5px;
+    object-fit: cover;
+}
+
+#second-part1{
+    margin-right: 17vw;
+}
+
+#second-part2{
+     width: 30%;
 }
 
 @keyframes fadeEffect {
@@ -97,8 +109,33 @@ html, body{
      .ri-menu-line{
         display: block;
      }
+     #nav{
+        height: auto;
+     }
      #nav-links a{
         display: none;
+     }
+     #second-section{
+        height: 50vh;
+     }
+     #first-section{
+        height: 45vh;
+     }
+     #second-section img{
+        height: 200px;
+        width: 300px;
+     }
+     #second-section{
+        font-size: 10px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5vw;
+     }
+     #second-part1{
+        margin: 0;
+     }
+      #second-part2{
+        width: 90%;
      }
 }
 
